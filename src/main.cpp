@@ -29,10 +29,10 @@ int soilmoisturepercent{};
 WiFiClient wifiClient;
 const char* ssid = "Cuyvers-Thielemans 0";
 const char* password = "j7BMpXJP0Ssf";
-const char* mqtt_server = "192.168.1.247";
 
 // MQTT
 PubSubClient client(wifiClient);
+const char* mqtt_server = "https://cuythi.duckdns.org/";
 #pragma endregion GlobaleVariabelen
 
 #pragma region FunctieDeclaraties
